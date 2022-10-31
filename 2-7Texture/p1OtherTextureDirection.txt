@@ -1,0 +1,2 @@
+// Change fragment shader code in main()
+FragColor = mix(texture(block, TexCoord), texture(mario, vec2(-TexCoord.x, TexCoord.y)), 0.5);
