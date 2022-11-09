@@ -1,4 +1,4 @@
-// Change translation code to this
+// Change transformation code to this
 
 glm::mat4 trans(1.0f);
 trans = glm::translate(trans, glm::vec3(0.5f, -0.5f, 0.0f));
